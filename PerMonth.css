@@ -19,11 +19,12 @@
 	font: 80%/normal 宋体;
 	margin: 0px;
 	padding: 3px 2px 2px;
-	color: rgb(51, 51, 51);
+	/* color: rgb(51, 51, 51); */
+	color: white;
 	font-size-adjust: none;
 	font-stretch: normal;
 	/* background-color: rgb(175, 238, 238); */
-	background-color: #00BFFF
+	background-color: #34352C;
 }
 
 .month td {
@@ -38,12 +39,11 @@
 }
 
 .month td.holiday {
-	background-color: rgb(211, 231, 211);
+	background-color: rgb(222, 252, 222);
 }
 
 .month td.absent {
-	/* background-color: rgb(255, 245, 238); */
-	background-color: rgb(223, 248, 247);
+	background-color: #EFF0DC;
 }
 
 .month td.previous {
@@ -59,7 +59,7 @@
 
 .month td.active {
 	border-width: 1px;
-	background-color: rgb(245, 245, 245);
+	background-color: #F5F6EB;
 }
 
 .month td:hover {
@@ -69,6 +69,8 @@
 .month ul {
 	margin: 3px;
 	padding: 0px;
+	list-style-type: none;
+	list-style: none;
 }
 
 .month li {
@@ -85,7 +87,9 @@
 .month td li.important {
 	border-width: 1px;
 	border-color: rgb(255, 255, 255);
-	background-color: rgb(255, 0, 0);
+	/* background-color: #a3a380; */
+	/* background-color: #8c8c77; */
+	background-color: #79E8D0
 }
 
 .month td a.icon {
@@ -131,7 +135,6 @@
 .typeselect {
 	/* background: rgb(132, 134, 134); */
 	background-color: #FFFAFA;
-	/* background-color: rgb(248, 240, 240); */
 	margin: auto;
 	padding: 0px;
 	left: 0px;
